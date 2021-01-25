@@ -77,7 +77,8 @@ jobs:
           CONFIG_PACKAGE_luci-app-wrtbwmon=y          
           CONFIG_PACKAGE_luci-app-ssr-plus=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Xray=y
-          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan=y
+          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan is not set
+          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan-go is not set
           # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Redsocks2 is not set
           # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun is not set
           # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server is not set
@@ -88,7 +89,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
           # CONFIG_PACKAGE_luci-app-cpufreq is not set
           # CONFIG_PACKAGE_luci-app-unblockmusic is not set
-          # CONFIG_PACKAGE_UnblockNeteaseMusicGo is not set
+          # CONFIG_UnblockNeteaseMusic_Go is not set
           # CONFIG_PACKAGE_luci-app-xlnetacc is not set
           # CONFIG_PACKAGE_luci-app-zerotier is not set
           EOF
