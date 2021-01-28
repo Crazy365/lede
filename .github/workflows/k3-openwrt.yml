@@ -10,9 +10,9 @@
 name: K3-OpenWrt
 
 on:
-  push:
-    branches: 
-      - master
+  # push:
+  #   branches: 
+  #     - master
   # schedule:
   #   - cron: 0 20 * * *
   release:
@@ -132,4 +132,3 @@ jobs:
         with:
           name: OpenWrt firmware
           path: ./artifact/
-
