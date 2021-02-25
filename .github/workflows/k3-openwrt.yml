@@ -71,7 +71,6 @@ jobs:
           EOF
            
           cat >> .config <<EOF
-          CONFIG_PACKAGE_luci-app-adbyby-plus=y
           CONFIG_PACKAGE_luci-app-nft-qos=y
           CONFIG_PACKAGE_luci-app-ttyd=y
           CONFIG_PACKAGE_luci-app-wrtbwmon=y          
